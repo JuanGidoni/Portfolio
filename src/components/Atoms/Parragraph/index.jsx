@@ -1,10 +1,10 @@
 import './index.css';
 
-const Parragraph = () => {
+const Parragraph = ({ text }) => {
  return (
-  <>
-
-  </>
+  <p>
+   {text}
+  </p>
  )
 }
 
