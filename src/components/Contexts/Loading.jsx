@@ -1,6 +1,5 @@
 
 import React, { useContext, useState, useEffect } from "react"
-import { useParams } from 'react-router-dom'
 import Loading from "../Atoms/Loading";
 
 const LoadingContext = React.createContext();
