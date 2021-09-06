@@ -1,0 +1,39 @@
+/*
+****************
+ *****************
+   FOOTER STYLES
+ *****************
+ ****************
+ */
+
+footer {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  background: #fafafa;
+  z-index: 100;
+}
+
+footer .wrapper {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 649px) {
+  footer .wrapper {
+    flex-direction: column;
+  }
+
+  footer .wrapper h3 {
+    padding-bottom: .8rem;
+  }
+}

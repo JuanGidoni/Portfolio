@@ -1,6 +1,57 @@
-/* app css */
-* {
-  box-sizing: border-box;
+*,
+*::before,
+*::after,
+:root {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap');
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #252934;
+  background: #fafafa;
+  font-size: 62.5%;
+  font-family: 'Roboto';
+  overflow-x: hidden;
+}
+
+a,
+a:visited {
+  color: #252934;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+a:hover,
+a:active {
+  color: #f3a600;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.center {
+  text-align: center;
 }

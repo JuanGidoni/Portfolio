@@ -1,1 +1,27 @@
 /* Default Css Template */
+
+.container {
+ width: 100vw;
+ max-width: 100vw;
+ padding-left: 15vw;
+ padding-right: 15vw;
+}
+
+.container-fuild {
+ width: 100vw;
+ max-width: 100vw;
+}
+
+.p {
+ padding: 1rem;
+}
+
+.py-1 {
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+}
+
+.px-1 {
+ padding-left: 1rem;
+ padding-right: 1rem;
+}

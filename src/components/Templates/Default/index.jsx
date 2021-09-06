@@ -2,7 +2,7 @@ import './index.css';
 
 const Default = ({ children }) => {
  return (
-  <div className="container" >
+  <div className="container-fluid" >
    {children}
   </div>
  )
