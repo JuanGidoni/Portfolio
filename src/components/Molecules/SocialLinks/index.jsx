@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
+import CV from '../../Assets/CV_Gidoni_Juan_2021.pdf';
 
 const SocialLinks = () => {
  return (
@@ -21,6 +22,15 @@ const SocialLinks = () => {
    >
     {' '}
     <FaLinkedin />
+   </a>
+   <a
+    href={CV}
+    target="_blank"
+    rel="noopener noreferrer"
+    title="Download Author CV"
+   >
+    {' '}
+    <FaFileDownload />
    </a>
   </div>
  );

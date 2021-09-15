@@ -3,6 +3,7 @@ import Triviex from '../../Assets/Projects/triviex.png';
 import Integra from '../../Assets/Projects/integra.png';
 import DigiChanges from '../../Assets/Projects/dg.png';
 import Sheltr from '../../Assets/Projects/sheltr.png';
+import CV from '../../Assets/CV_Gidoni_Juan_2021.pdf';
 
 import './index.css';
 
@@ -88,12 +89,16 @@ const Projects = () => {
       </p>
      </Project>
     </div>
-    <div className="projects-wrapper flex flex-center flex-col">
+    <div className="projects-wrapper flex flex-center flex-col center">
      <small>
       Want more?
      </small>
-     <p>
-      Check my <a className="color" href="https://www.linkedin.com/in/juangidoni/" rel="noreferrer" target="_blank"><strong>LinkedIn profile</strong></a>  or <a className="color" href="../../Assets/CV_Gidoni_Juan_2021.pdf" rel="noreferrer" target="_blank"><strong>download my CV</strong></a>.
+     <p className="p-1">
+      Check my <a className="color" href="https://www.linkedin.com/in/juangidoni/" rel="noreferrer" target="_blank">
+       <strong>LinkedIn profile</strong></a>  or
+      <a className="color" href={CV} rel="noreferrer" target="_blank">
+       <strong> download my CV</strong>
+      </a>.
      </p>
     </div>
    </div>

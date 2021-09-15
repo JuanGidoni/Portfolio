@@ -44,6 +44,11 @@ a:active {
   align-items: center;
 }
 
+.flex-right {
+  justify-content: center;
+  align-items: flex-end;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -54,4 +59,20 @@ a:active {
 
 .center {
   text-align: center;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.pl-3 {
+  padding-left: 3rem;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
 }
